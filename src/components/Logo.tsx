@@ -20,7 +20,7 @@ export function Logo({ className, variant = "dark" }: Props) {
       aria-label="EMIVET Clínica Veterinária"
     >
       <img
-        src="/images/logo-emivet.png"
+        src={`${import.meta.env.BASE_URL}images/logo-emivet.png`}
         alt="EMIVET Clínica Veterinária"
         className={cn(
           "h-10 w-auto object-contain sm:h-11",

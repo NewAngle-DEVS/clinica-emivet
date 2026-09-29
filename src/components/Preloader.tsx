@@ -28,7 +28,7 @@ export function Preloader() {
             className="flex flex-col items-center gap-6"
           >
             <motion.img
-              src="/images/logo-emivet.png"
+              src={`${import.meta.env.BASE_URL}images/logo-emivet.png`}
               alt="EMIVET"
               className="h-14 w-auto object-contain sm:h-16"
               initial={{ scale: 0.92, opacity: 0 }}
